@@ -1,8 +1,11 @@
-import Image from 'next/image'
+import { Sidebar } from '@/components/ui/sidebar/Sidebar'
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
+    <main className="flex min-h-screen flex-col">
+      <aside className='w-64 bg-charcoal_gray min-h-screen'>
+        <Sidebar/>
+      </aside>
     </main>
   )
 }
