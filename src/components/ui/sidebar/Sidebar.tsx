@@ -38,7 +38,7 @@ export const Sidebar = () => {
   return (
     <div className="flex flex-col">
       <div className="flex h-screen">
-        <nav className="flex flex-col h-full items-center w-20 bg-jet_black px-2 gap-2">
+        <nav className="flex flex-col h-full items-center w-20 bg-jet_black px-2 gap-2 py-1">
           <h3 className="text-sm font-semibold text-gray-400">Discord</h3>
           <ul className="flex flex-col gap-5">
             <SidebarChannels />
